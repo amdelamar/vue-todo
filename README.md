@@ -1,6 +1,6 @@
 # vue-todo
 
-> A demo "To-Do list" app with Vue.js and PouchDB
+> A simple To-Do app with Vue.js and PouchDB
 
 ## Build Setup
 
