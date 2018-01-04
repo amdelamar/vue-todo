@@ -2,10 +2,10 @@
   <div class="text-medium">
 
     <!-- List all todos if there are any -->
-    <ol v-if="todos.length > 0" class="item-list text-left">
+    <div v-if="todos.length > 0" class="item-list text-left">
       <todo v-for="todo in todos" :todo="todo"></todo>
-      <p class="right">{{ todos.length }} item(s) to do</p>
-    </ol>
+      <p class="text-right">{{ todos.length }} item(s) to do</p>
+    </div>
 
     <!-- give message if no todos -->
     <div v-if="todos.length < 1" class="text-center">
@@ -39,7 +39,7 @@ export default {
 
 <style>
 .item-list {
-  list-style: none;
+  display: block; box-sizing: border-box;
   padding: 0;
   margin: 0;
 }

@@ -25,9 +25,10 @@ export default {
 <style>
 .text-larger { font-size: 1.25em; } .text-smaller { font-size: 0.75em; }
 .text-center { text-align:center; }
-.text-left { text-align:left; }
+.text-left { text-align:left; } .text-right { text-align:right; }
 .full-width { width: 100%; }
 .container { position:relative; width:100%; max-width: 660px; box-sizing: border-box; }
+.button { cursor: pointer }
 .button, input, textarea {
   display: inline-block; box-sizing: border-box;
   padding:.4rem .8rem;

@@ -4,8 +4,10 @@
     <input type="text" v-model="title" placeholder="Enter title" class="full-width text-larger" /><br/>
     <textarea v-model="description" placeholder="content" class="full-width"></textarea>
     <br/>
-    <button v-on:click="create" class="button">Create</button>&nbsp;
-    <router-link to="/">Cancel</router-link>&nbsp;&nbsp;{{ status }}
+    <div class="text-right">
+      <button v-on:click="create" class="button">Create</button>&nbsp;
+      <router-link to="/">Cancel</router-link>&nbsp;&nbsp;{{ status }}
+    </div>
   </form>
 </template>
 
