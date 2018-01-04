@@ -8,8 +8,6 @@
 </template>
 
 <script>
-import store from '../store'
-
 export default {
   name: 'todo',
 
@@ -28,8 +26,8 @@ export default {
     toggle () {
       // toggle completion
       this.isComplete = !this.isComplete
-      if(this.isComplete) {
-          this.completeMsg = 'Undo'
+      if (this.isComplete) {
+        this.completeMsg = 'Undo'
       } else {
         this.completeMsg = 'Mark Complete'
       }
