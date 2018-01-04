@@ -29,11 +29,18 @@ export default {
 .full-width { width: 100%; }
 .container { position:relative; width:100%; max-width: 660px; box-sizing: border-box; }
 .button { cursor: pointer }
+.button:hover, input, input:hover, textarea:hover {
+  border-color: #254929;
+  color: #254929;
+}
+a, a:visited { color: #254929; } a:hover { color: green; }
+input, textarea { box-shadow: inset 0 0 3px 2px #efefef; }
 .button, input, textarea {
   display: inline-block; box-sizing: border-box;
   padding:.4rem .8rem;
   margin:.1rem;
-  border:1px solid grey;
+  border:1px solid;
+  border-color: grey;
   border-radius:.5rem;
   background-color: white;
   font-weight:600;
