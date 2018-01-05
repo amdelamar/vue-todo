@@ -24,7 +24,7 @@ export default {
 
 <style>
 .text-larger { font-size: 1.25em; } .text-smaller { font-size: 0.75em; }
-.text-center { text-align:center; }
+.text-center { text-align:center; } .right { float: right; }
 .text-left { text-align:left; } .text-right { text-align:right; }
 .full-width { width: 100%; }
 .container { position:relative; width:100%; max-width: 660px; box-sizing: border-box; }
