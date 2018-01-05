@@ -1,7 +1,7 @@
 <template>
   <main id="app" class="container">
 
-    <h1 class="text-center"><img src="/static/logo.png" height="50px" width="50px" style="vertical-align: middle;padding-right: .5rem;" />{{ msg }}</h1>
+    <h1 class="text-center"><img src="static/logo.png" height="50px" width="50px" style="vertical-align: middle;padding-right: .5rem;" />{{ msg }}</h1>
     <p>
       <router-link to="/" class="button">All To-Dos</router-link>&nbsp;
       <router-link to="/new" class="button right">New</router-link>
