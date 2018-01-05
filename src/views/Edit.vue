@@ -64,7 +64,7 @@ export default {
     remove () {
       this.status = ''
       let isOk = confirm('Ok to delete this item?')
-      if(isOk) {
+      if (isOk) {
         this.status = 'Deleting...'
         store.delete(this.todo).then(() => {
           this.todo = ''
