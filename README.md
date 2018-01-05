@@ -2,6 +2,10 @@
 
 > A simple To-Do app with Vue.js and PouchDB
 
+Live Demo: https://austindelamar.com/vue-todo/#/
+
+![Screenshot](/static/todo-app.png)
+
 ## Build Setup
 
 ``` bash
@@ -28,3 +32,7 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## License
+
+[MIT licensed](/LICENSE)
