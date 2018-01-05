@@ -1,7 +1,7 @@
 <template>
   <main id="app" class="container">
 
-    <h1 class="text-center"><img src="static/logo.png" height="50px" width="50px" style="vertical-align: middle;padding-right: .5rem;" />{{ msg }}</h1>
+    <h1 class="text-left"><img src="static/logo.png" height="50px" width="50px" style="vertical-align: middle;padding-right: .5rem;" />{{ msg }}</h1>
     <p>
       <router-link to="/" class="button">All To-Dos</router-link>&nbsp;
       <router-link to="/new" class="button right">New</router-link>
@@ -16,7 +16,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'To-Dos'
     }
   }
 }
@@ -59,8 +59,8 @@ input, textarea { box-shadow: inset 0 0 3px 2px #efefef; }
 }
 body {
   font-family:Camphor,Open Sans,Segoe UI,sans-serif;
-  height:100vh;
-  width:100vw;
+  min-height:100vh;
+  max-width:100vw;
   background-image:linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, #ffffff), linear-gradient(70deg, #eaf5ff 32%, #f6fff8);
 }
 </style>
