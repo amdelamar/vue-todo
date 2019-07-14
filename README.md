@@ -2,7 +2,7 @@
 
 > A simple To-Do app with Vue.js and PouchDB
 
-Live Demo: https://austindelamar.com/vue-todo/#/
+Live Demo: https://amdelamar.com/vue-todo/#/
 
 ![Screenshot](/static/todo-app.png)
 
